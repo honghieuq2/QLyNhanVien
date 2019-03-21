@@ -12,5 +12,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState, persistentState);
 
         Log.d("Haha", "Ahaha");
+
     }
 }
