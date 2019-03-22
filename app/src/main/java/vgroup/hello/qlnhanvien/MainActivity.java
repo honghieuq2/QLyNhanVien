@@ -1,5 +1,6 @@
 package vgroup.hello.qlnhanvien;
 
+import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,7 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
         int id = item.getItemId();
         if(id == R.id.menuDangKy){
-            return true;
+            Dialog dialog = new Dialog(this);
+            dialog.setContentView(R.layout.layout_dangky);
+            dialog.setTitle(R.string.titleDangKy);
+            dialog.show();
         }
 
         return super.onOptionsItemSelected(item);

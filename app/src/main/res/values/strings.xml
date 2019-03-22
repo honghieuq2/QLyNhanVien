@@ -7,4 +7,7 @@
     <string name="dongy">Đồng ý</string>
     <string name="thoat">Thooát</string>
     <string name="titleDangKy">Đăng Ký</string>
+    <string name="taikhoandangky">Nhập tên tài khoản</string>
+    <string name="hintnhapmatkhau">Nhập lại mật khẩu</string>
+
 </resources>
