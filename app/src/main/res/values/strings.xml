@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">QLNhanVien</string>
+    <string name="action_settings">Setting</string>
+    <string name="tendangnhap">Tên Đăng Nhập</string>
+    <string name="hinttendangnhap">Nhập tài khoản</string>
+    <string name="hintmatkhau">Nhập mật khẩu</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="thoat">Thooát</string>
+    <string name="titleDangKy">Đăng Ký</string>
 </resources>

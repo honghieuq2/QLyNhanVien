@@ -1,4 +1,14 @@
 package vgroup.hello.qlnhanvien;
 
-public class ThirdActivity {
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+
+public class ThirdActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.d("Haha 3", "Ahaha 3");
+    }
 }
